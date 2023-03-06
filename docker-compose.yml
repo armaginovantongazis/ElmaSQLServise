@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  elmasqlservise:
+    image: ${DOCKER_REGISTRY-}elmasqlservise
+    build:
+      context: .
+      dockerfile: Dockerfile
